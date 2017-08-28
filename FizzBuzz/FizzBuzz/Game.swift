@@ -15,4 +15,8 @@ class Game {
     init() {
         score = 0
     }
+    
+    func play() {
+        score = score + 1
+    }
 }
