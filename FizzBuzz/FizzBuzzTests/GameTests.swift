@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import FizzBuzz
 
 class GameTests: XCTestCase {
     
@@ -20,5 +21,9 @@ class GameTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+    }
+    
+    func testGameStartsAtZero() {
+        XCTAssertTrue(game.score == 0)
     }
 }
