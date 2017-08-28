@@ -17,4 +17,12 @@ class Brain {
             return false
         }
     }
+    
+    func check(number: Int) -> String {
+        if isDivisibleBy(divisor: 3, number: number) {
+            return "Fizz"
+        } else {
+            return "NO"
+        }
+    }
 }
