@@ -117,7 +117,7 @@
 				0A7C9C7D1F54439C00CEA32F /* BrainTests.swift */,
 			);
 			path = FizzBuzzTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		0A7C9C6E1F5442DE00CEA32F /* FizzBuzzUITests */ = {
 			isa = PBXGroup;
