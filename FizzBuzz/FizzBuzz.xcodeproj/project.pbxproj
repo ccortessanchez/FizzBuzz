@@ -106,11 +106,11 @@
 				0A7C9C4F1F5442DE00CEA32F /* AppDelegate.swift */,
 				0A7C9C511F5442DE00CEA32F /* ViewController.swift */,
 				0A7C9C7F1F54443500CEA32F /* Brain.swift */,
+				0A7C9C831F54594500CEA32F /* Game.swift */,
 				0A7C9C531F5442DE00CEA32F /* Main.storyboard */,
 				0A7C9C561F5442DE00CEA32F /* Assets.xcassets */,
 				0A7C9C581F5442DE00CEA32F /* LaunchScreen.storyboard */,
 				0A7C9C5B1F5442DE00CEA32F /* Info.plist */,
-				0A7C9C831F54594500CEA32F /* Game.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
