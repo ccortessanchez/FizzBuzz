@@ -14,7 +14,11 @@ class ViewController: UIViewController {
 
     var gameScore: Int? {
         didSet {
-            numberButton.setTitle("1", for: .normal)
+            guard let unwrappedScore = gameScore else {
+                print("gameScore is nil")
+                return
+            }
+            numberButton.setTitle("\(unwrappedScore)", for: .normal)
         }
     }
     var game: Game?
@@ -22,6 +26,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         game = Game()
+        
+        guard let checkedGame = game else {
+            print("Game is nil")
+            return
+        }
+        
+        gameScore = checkedGame.score
     }
 
     override func didReceiveMemoryWarning() {
