@@ -45,8 +45,8 @@ class ViewController: UIViewController {
             print("Game is nil")
             return
         }
-        let response = unwrappedGame.play(move: move)
-        gameScore = response.score
+        //let response = unwrappedGame.play(move: move)
+        //gameScore = response.score
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
