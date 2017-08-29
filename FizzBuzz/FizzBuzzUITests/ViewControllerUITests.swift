@@ -9,7 +9,9 @@
 import XCTest
 
 class ViewControllerUITests: XCTestCase {
-        
+    
+    let app = XCUIApplication()
+    
     override func setUp() {
         super.setUp()
         
@@ -29,7 +31,6 @@ class ViewControllerUITests: XCTestCase {
     }
     
     func testTapNumberButtonIncrementsScore() {
-        let app = XCUIApplication()
         let numberButton = app.buttons["numberButton"]
         numberButton.tap()
         let newScore = numberButton.label
@@ -37,7 +38,6 @@ class ViewControllerUITests: XCTestCase {
     }
     
     func testTapNumberButtonTwiceIncrementsTo2() {
-        let app = XCUIApplication()
         let numberButton = app.buttons["numberButton"]
         numberButton.tap()
         numberButton.tap()
@@ -46,7 +46,6 @@ class ViewControllerUITests: XCTestCase {
     }
     
     func testTapFizzButtonIncrementsTo3() {
-        let app = XCUIApplication()
         let numberButton = app.buttons["numberButton"]
         let fizzButton = app.buttons["fizzButton"]
         numberButton.tap()
@@ -57,7 +56,6 @@ class ViewControllerUITests: XCTestCase {
     }
     
     func testTapBuzzButtonIncrementsTo5() {
-        let app = XCUIApplication()
         let numberButton = app.buttons["numberButton"]
         let fizzButton = app.buttons["fizzButton"]
         let buzzButton = app.buttons["buzzButton"]
@@ -71,7 +69,6 @@ class ViewControllerUITests: XCTestCase {
     }
     
     func testTapFizzBuzzButtonIncrementsTo15() {
-        let app = XCUIApplication()
         let numberButton = app.buttons["numberButton"]
         let fizzBuzzButton = app.buttons["fizzBuzzButton"]
         
@@ -83,7 +80,6 @@ class ViewControllerUITests: XCTestCase {
     }
     
     func playTo14() {
-        let app = XCUIApplication()
         let numberButton = app.buttons["numberButton"]
         let fizzButton = app.buttons["fizzButton"]
         let buzzButton = app.buttons["buzzButton"]
