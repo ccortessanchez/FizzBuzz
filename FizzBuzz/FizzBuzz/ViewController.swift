@@ -57,8 +57,10 @@ class ViewController: UIViewController {
             play(move: Move.number)
         } else if sender == fizzButton {
             play(move: Move.fizz)
-        } else {
+        } else if sender == buzzButton{
             play(move: Move.buzz)
+        } else {
+            play(move: Move.fizzBuzz)
         }
     }
     
