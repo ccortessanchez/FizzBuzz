@@ -53,14 +53,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
-        if sender == numberButton {
+        switch sender {
+        case numberButton:
             play(move: Move.number)
-        } else if sender == fizzButton {
+        case fizzButton:
             play(move: Move.fizz)
-        } else if sender == buzzButton{
+        case buzzButton:
             play(move: Move.buzz)
-        } else {
+        case fizzBuzzButton:
             play(move: Move.fizzBuzz)
+        default:
+            print("Invalid selection")
         }
     }
     
