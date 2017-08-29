@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A35A3331F5552E100453E16 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A35A3321F5552E100453E16 /* ViewControllerUnitTests.swift */; };
 		0A7C9C501F5442DE00CEA32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C9C4F1F5442DE00CEA32F /* AppDelegate.swift */; };
 		0A7C9C521F5442DE00CEA32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C9C511F5442DE00CEA32F /* ViewController.swift */; };
 		0A7C9C551F5442DE00CEA32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9C531F5442DE00CEA32F /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A35A3321F5552E100453E16 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 		0A7C9C4C1F5442DE00CEA32F /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7C9C4F1F5442DE00CEA32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A7C9C511F5442DE00CEA32F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				0A7C9C661F5442DE00CEA32F /* Info.plist */,
 				0A7C9C7D1F54439C00CEA32F /* BrainTests.swift */,
 				0A7C9C811F5458FA00CEA32F /* GameTests.swift */,
+				0A35A3321F5552E100453E16 /* ViewControllerUnitTests.swift */,
 			);
 			path = FizzBuzzTests;
 			sourceTree = SOURCE_ROOT;
@@ -285,6 +288,7 @@
 			files = (
 				0A7C9C7E1F54439C00CEA32F /* BrainTests.swift in Sources */,
 				0A7C9C821F5458FA00CEA32F /* GameTests.swift in Sources */,
+				0A35A3331F5552E100453E16 /* ViewControllerUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
