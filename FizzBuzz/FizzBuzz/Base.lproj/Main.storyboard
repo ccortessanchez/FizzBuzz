@@ -47,6 +47,9 @@
                                         <state key="normal" title="0" backgroundImage="button_border">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNj-aO-yHG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRf-9d-UaM">
                                         <rect key="frame" x="153" y="0.0" width="141" height="141"/>
@@ -103,6 +106,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="S3S-cn-pyq" secondAttribute="bottom" constant="20" id="yqU-1O-HWg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberButton" destination="wk5-kh-xbd" id="zHF-Ng-Kpc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
