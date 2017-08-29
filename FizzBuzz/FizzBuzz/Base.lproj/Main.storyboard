@@ -68,6 +68,9 @@
                                         <state key="normal" image="lightning" backgroundImage="button_border">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsn-xP-HTd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOl-Wf-pTx" userLabel="FizzBuzzButton">
                                         <rect key="frame" x="153" y="153" width="141" height="141"/>
@@ -75,6 +78,9 @@
                                         <state key="normal" image="space" backgroundImage="button_border">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2x7-mA-LuY"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -114,6 +120,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buzzButton" destination="TAK-l9-oyJ" id="Ey6-vK-6lV"/>
+                        <outlet property="fizzButton" destination="cRf-9d-UaM" id="kd4-g2-PcV"/>
+                        <outlet property="fizzBuzzButton" destination="GOl-Wf-pTx" id="skH-HG-sLD"/>
                         <outlet property="numberButton" destination="wk5-kh-xbd" id="zHF-Ng-Kpc"/>
                     </connections>
                 </viewController>
