@@ -34,7 +34,7 @@ class GameTests: XCTestCase {
     
     func testOnPlayTwiceScoreIncremented() {
         game.score = 1
-        let _ = game.play(move: "1")
+        let _ = game.play(move: "2")
         XCTAssertTrue(game.score == 2)
     }
     
@@ -42,5 +42,11 @@ class GameTests: XCTestCase {
         game.score = 2
         let result = game.play(move: "Fizz")
         XCTAssertEqual(result, true)
+    }
+    
+    func testIfMoveIsWrong() {
+        game.score = 1
+        let result = game.play(move: "Fizz")
+        XCTAssertEqual(result, false)
     }
 }
