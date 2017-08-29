@@ -28,7 +28,8 @@ class ViewController: UIViewController {
             print("Game is nil")
             return
         }
-        let newScore = unwrappedGame.play(move: move)
+        let response = unwrappedGame.play(move: move)
+        gameScore = response.score
     }
 }
 
